@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+        <title>Hello Quiz - Backend3</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">Backend3</div>
+            <div class="home" ><a class ="home" href = "/">Home</a></div>
+            <div class="mockups" ><a class ="mockups" href = "/Mockups">Mockups</a></div>
+        </header>
+        <div class="content">
+            <div class="page_head">Quiz results</div>
+            <div class="result">
+                Right answers <span>{{right_answers[0]}}</span> out <span >{{all_answers[0]}}</span>
+                 <ol class="answers">
+                    {%for m in answers -%}
+                    <li>{{m.example}} = {{m.answer}}</li>
+                    {% endfor -%}
+                 </ol>
+            </div>
+        </div>
+        <div class="line"></div>
+        <footer>© 2019 - Backend3</footer>
+    </body>
+</html>

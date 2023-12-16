@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+header{
+    background-color: black;
+    color: lightgray;
+    height: 20px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    padding: 20px;
+}
+
+a.home{
+    color: lightgray;
+}
+
+a.mockups{
+    color: lightgray;
+}
+
+
+.header{
+    margin: 30px;
+    display: inline;
+    font-size: 18px;
+}
+
+.home{
+    display: inline;
+}
+
+.mockups{
+    display: inline;
+}
+
+.content{
+    margin-left: 50px;
+}
+
+.page_head{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.line{
+       border: 1px solid lightgray;
+       margin-left: 50px;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border:1px solid lightgray;  
+    display: block; 
+}
+
+button{
+    padding: 7px 10px 7px 10px;
+    border: 1px solid lightgray;
+    margin: 15px 0px 15px 0px;
+    border-radius: 5px;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+.next{
+    background-color: white;
+}
+
+.finish{
+    background-color: steelblue;
+    color: white;
+}
+
+.example{
+    border: none;
+    font-size: 2vh; 
+    font-weight: 600;
+}
+
+.check{
+    display: none;
+}
+
+.answers{
+    font-size: 14px;
+}
+
+.result{
+    font-size: 22px;
+}
